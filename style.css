@@ -1,0 +1,113 @@
+        * {
+            box-sizing: border-box;
+        }
+        body {
+
+            margin: 0;
+        }
+        button {
+            color: red;
+            background-color: rgb(27, 237, 27);
+            border: 1px solid #000;
+            padding: 2px;
+            margin: 3px;
+            width: 60px;
+            height: 40px;
+        }
+        .container {
+            width: 100%;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            height: 100vh;
+        }
+        .btn_language {
+            padding: 2px;
+            font-size: 11px;
+        }
+        .kq {
+            background-color: blanchedalmond;
+        }
+        body .kq {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .the_body {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            background-image: url(image/anh_1.jpg);
+            background-size: cover;
+        }
+        .header {
+            color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 10px;
+            background-color: orange;
+            width: 100%;
+            height: 13%;
+            padding-top: 0px;
+            margin: 0;
+        }
+        .content {
+            display: flex;
+            background-color: rgb(12, 241, 104);
+            height: 87%;
+        }
+        .box_1 {
+            display: flex;
+            flex-direction: column;
+            font-size: 8px;
+            border: 1px solid #2600ff;
+            width: 160px;
+            align-items: center;
+            justify-content: center;
+        }
+        .ip1, .ip2 {
+            border: 1px solid #1a319b;
+            width: 110px;
+            height: auto;
+        }
+        .section {
+            /* border: 1px solid #ff0202; */
+            height: 50px;
+            width: 100%;
+            padding-left: 3px;
+            padding-right: 3px;
+            padding-top: 2px;
+        }
+        .ip2 {
+            margin-left: 2px;
+            margin-top: 2px;
+        }
+        .btn_login {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #7c0d0d;
+            background-color: aqua;
+            width: 60px;
+            height: 13px;
+            padding: 3px;
+            font-size: 9px;
+            border-radius: 3px;
+        }
+        .section-login {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 80px;
+            /* border: 1px solid #4502ff; */
+        }
